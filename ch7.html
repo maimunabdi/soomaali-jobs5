@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+       #myelement{
+        width: 100px;
+        height: 100px;
+        color: white;
+        background-color: black;
+       } 
+
+        .focused{
+            color: green;
+        }
+        .blurred{
+            color: red;
+        }
+        .valid{
+            color: green;
+        }
+        .invalid{
+            color: red;
+        }
+ul{
+    cursor: pointer;
+}
+li{
+    display:inline-block;
+    margin-right: 10px;
+    padding: 5px;
+    background-color: #eee;
+}
+li:hover{
+    background-color: #ddd;
+}
+    </style>
+</head>
+<body>
+
+    <div id="div" >
+  
+        <a href="../HTML/index.html">home</a>
+        <a href="./chapters.html">chapters</a>
+        <a href="./assignment.html">assignment</a>
+        <a href="./lab.html">lab</a>
+        <a href="./about me page.html">About me</a>
+      
+        </div>
+    <ul id="parentlist">
+        <li>1tem1</li>
+        <li>1tem2</li>
+        <li>1tem3</li>
+        <li>1tem4</li>
+    </ul>
+    <button id="mybutton"> click me!</button>
+   
+
+
+    <div id="myelement"> hover over me</div>
+<!---keys-->
+    <input type="text" id="textinput" placeholder="type somthing">
+  
+    <!---focud,blure-->
+    <div id="outputfb"></div>
+    <input type="text" id="focudtinput" placeholder="type somthing">
+   
+
+    <!-- form-->
+
+    <form id="myform">
+        <input type="text" id="forminput" placeholder="type somthing">
+<button type="submit"> submit</button>
+    </form>
+    <div id="outputform"></div>
+
+
+  
+    <script src="./js/mainn.js"></script>
+    <div id="div">
+        <footer>
+            <a href="../HTML/index.html">home</a>
+          <a href="./chapters.html">chapters</a>
+          <a href="./assignment.html">assignment</a>
+          <a href="./lab.html">lab</a>
+          <a href="./about me page.html">About me</a>
+        </footer>
+      </div>
+</body>
+</html>
